@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block title %}Index{% endblock %}
+
+
+{% block body %}
+
+    <!-- Camal/ -->
+    <div class="image-container">
+        <img src="static/camal.jpg" alt="Apology Image" style="width: 35%;">
+        <div class="text">{{ apology }}</div>
+    </div>
+    <p>
+
+    </p>
+    <a href="/gis" class="btn btn-primary">Go to GIS</a> <!-- Use Bootstrap's button styling -->
+    <a href="/capacity_building" class="btn btn-primary">Go to Capacity Building</a>
+    <a href="/publications" class="btn btn-primary">Go to Publications</a>
+    <a href="/events" class="btn btn-primary">Go to Events</a>
+    <a href="/register" class="btn btn-primary">Go to Register</a>
+    <a href="/login" class="btn btn-primary">Go to Log In</a>
+
+
+    {% endblock %}

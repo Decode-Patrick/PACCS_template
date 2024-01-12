@@ -1,0 +1,40 @@
+/* styles.css */
+.event-image, .capacity_building-image {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* New styles for buttons */
+.button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #333;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+p {
+    margin-bottom: .5in; /* You can adjust the value to control the space */
+  }
+
+  .image-container {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    font-size: 25px;
+    color: red;
+}
